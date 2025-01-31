@@ -1,0 +1,1 @@
+export { getVar } from './getVar';
