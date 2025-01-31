@@ -49,7 +49,7 @@ export const MainPage = () => {
         />
       </div>
       <div css={contentCss}>
-        <GradientWaveText style={{ fontSize: '80px', fontWeight: 'bold' }}>Cloud</GradientWaveText>
+        <GradientWaveText style={{ fontSize: '30px' }}>Cloud !</GradientWaveText>
       </div>
     </div>
   );
