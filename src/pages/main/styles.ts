@@ -141,3 +141,12 @@ export const interactiveCss = css({
   left: '-50%',
   opacity: 0.7,
 });
+
+export const contentCss = css({
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  zIndex: 1,
+  pointerEvents: 'none',
+});

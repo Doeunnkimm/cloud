@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
-import { bgCss, g1Css, g2Css, g3Css, g4Css, g5Css, gradientContainerCss, interactiveCss } from './styles';
+import { bgCss, contentCss, g1Css, g2Css, g3Css, g4Css, g5Css, gradientContainerCss, interactiveCss } from './styles';
+import { GradientWaveText } from '@/components';
 
 export const MainPage = () => {
   const interactiveRef = useRef<HTMLDivElement | null>(null);
@@ -46,6 +47,9 @@ export const MainPage = () => {
           data-interactive
           css={interactiveCss}
         />
+      </div>
+      <div css={contentCss}>
+        <GradientWaveText style={{ fontSize: '80px', fontWeight: 'bold' }}>Cloud</GradientWaveText>
       </div>
     </div>
   );
